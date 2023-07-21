@@ -11,7 +11,7 @@ const schema = require("./models/rider.js")
 
 
 app.get('/', (req, res) => {
-    res.json("<h1>Rider..</h1>");
+    res.json("<h1>...Rider..</h1>");
 });
 
 app.post('/register_rider', async(req, res) => {
